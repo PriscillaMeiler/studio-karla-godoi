@@ -1,0 +1,37 @@
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--black);
+  z-index: 10;
+  padding: 10px;
+}
+
+.page-header .header-container {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header .desktop-menu a {
+  font-size: 20px;
+}
+.page-header .desktop-menu a, .mobile-menu a {
+  transition: all .3s ease-in-out;
+  border-bottom: 1px solid transparent;
+  font-family: var(--font-antonio);
+  color: var(--color-white);
+}
+.page-header .desktop-menu a:hover, .mobile-menu a:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.mobile-menu {
+  padding-left: 30px;
+}
+/* Close button - Mobile Menu */
+.bg-background.fixed.z-50.flex.flex-col.gap-4.shadow-lg.data-[state=open]:slide-in-from-right.inset-y-0.right-0.h-full.dark button.ring-offset-background.focus\:ring-ring.data-\[state\=open\]\:bg-secondary.absolute.top-4.right-4.rounded-xs.opacity-70.transition-opacity.hover\:opacity-100.focus\:ring-2.focus\:ring-offset-2.focus\:outline-hidden.disabled\:pointer-events-none svg {
+  stroke: white;
+}

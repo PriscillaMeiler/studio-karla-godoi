@@ -1,0 +1,15 @@
+.page-contato .section-title {
+  color: var(--color-primary);
+}
+.page-contato h3 {
+  color: var(--color-secondary);
+  margin-bottom: 6px;
+  font-family: var(--font-antonio);
+}
+
+.page-contato .contact-section {
+  background-color: #f6f6f6;
+}
+.page-contato .contact-section p {
+  color: var(--color-black);
+}

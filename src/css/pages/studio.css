@@ -1,0 +1,18 @@
+.page-studio .section-title {
+  color: var(--color-primary);
+}
+.page-studio .contact-section {
+  background-color: #f6f6f6;
+}
+.page-studio .contact-section p {
+  color: var(--color-black);
+}
+.page-studio .swiper {
+  max-width: 50%;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  color: var(--color-primary);
+}
+.swiper .swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}

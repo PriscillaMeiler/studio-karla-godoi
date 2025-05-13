@@ -1,0 +1,46 @@
+.page-equipe .instructors-section {
+  background-color: #f6f6f6;
+}
+.page-equipe .instructors-section p, .page-equipe .instructors-section h3 {
+  color: var(--color-black);
+}
+.page-equipe .instructors-section .instructor-title {
+  font-family: var(--font-anybody);
+  color: var(--color-primary);
+  font-size: 30px;
+}
+.page-equipe .instructors-section .instructor-text {
+  font-size: 18px;
+}
+.page-equipe .instructors-section .instructor {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-equipe .instructors-section .instructor .instructor-image {
+  max-width: 375px;
+  margin-right: 30px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width:825px) {
+  .page-equipe .instructors-section .instructor {
+    width: 100%;
+    flex-direction: column;
+  } 
+  .page-equipe .instructors-section .instructor.invert-mobile .instructor-image {
+    order: 1;
+  }
+  .page-equipe .instructors-section .instructor .instructor-content {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .page-equipe .instructors-section .instructor .instructor-image {
+    margin-right: 0;
+  }
+}

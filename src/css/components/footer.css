@@ -1,0 +1,56 @@
+.page-footer {
+  background-color: black;
+  justify-content: space-evenly;
+  padding: 60px 30px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.page-footer .footer-title {
+  color: var(--color-primary);
+  font-family: var(--font-anybody);
+  font-size: 16px;
+}
+.page-footer p {
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 300;
+  color: #FFF;
+}
+.page-footer .footer-menu a {
+  font-family: var(--font-inter);
+  font-weight: 300;
+  font-size: 14px;
+  transition: all .3s ease-in-out;
+  color: #FFF;
+}
+.page-footer .footer-menu a:hover {
+  text-decoration: underline;
+  color: var(--color-primary);
+}
+.page-footer .footer-contact a {
+  color: var(--color-primary);
+  transition: all .3s ease-in-out;
+}
+.page-footer .footer-menu, .page-footer .footer-contact {
+  margin-top: 40px;
+}
+.page-footer .footer-contact a:hover {
+  color: #FFF;
+}
+
+@media screen and (min-width: 1024px) {
+  .page-footer {
+    flex-direction: row;
+    text-align: left;
+  }
+  .page-footer .footer-title {
+    font-size: 32px;
+  }
+  .page-footer p {
+    font-size: 20px;
+  }
+  .page-footer .footer-menu a {
+    font-size: 20px;
+  }
+}
